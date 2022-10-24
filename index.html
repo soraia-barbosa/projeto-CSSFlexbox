@@ -1,54 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <title>CSS Flexbox Anime</title>
-    </head>
-<body>
-    <header>
-        <div class= "logo"></div>
-        <ul class="menu">
-            <li><a href="#">Sobre</a></li>
-                <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Contato</a></li>
+<title>Animes</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/style2.css" rel="stylesheet">
+<body>  
 
-        </ul>
-        </header>
+  <header>
+    <div class="logo"></div>
+    <ul class="menu">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+  </header> 
 
-        <h1>Animes</h1>
+  <div id="modal">
 
-        <section class="container">
-           <div>
-            <img src="anime1.jpg" alt="">
-           </div>
-           <div>
-            <img src="anime2.jpg" alt="">
-           </div>
-           <div>
-            <img src="anime3.jpg" alt="">
-           </div>
-           <div>
-            <img src="anime4.jpg" alt="">
-           </div>
-           <div>
-            <img src="anime5.jpg" alt="">
-           </div>
-           <div>
-            <img src="anime6.jpg" alt="">
-           </div>
-
-
-
-
-
-
-
-
-        </section>
+  </div>
+  
+  <section class="container" id="gallery" class="row justify-content-start">
+    <div class="col-3">
+      <img src="assets/img/anime1.jpg"/>
+    </div>
+    <div class="col-3">
+      <img src="assets/img/anime2.jpg"/>
+    </div>
+    <div class="col-3">
+      <img src="assets/img/anime3.jpg"/>
+    </div>
+    <div class="col-3">
+      <img src="assets/img/anime4.jpg"/>
+    </div>
+    <div class="col-3">
+      <img src="assets/img/anime5.jpg"/>
+    </div>
+    <div class="col-3">
+      <img src="assets/img/anime6.jpg"/>
+    </div>
     
+  </div>
+<script src="assets/js/modal.js"></script>
+
 </body>
 </html>
